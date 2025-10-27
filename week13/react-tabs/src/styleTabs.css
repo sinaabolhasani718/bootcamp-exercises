@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.header-box {
+  background-color: #0046ff;
+  padding: 25px 15px 0 25px;
+}
+.header-box h1 {
+  margin: 0;
+  color: #e9e9e9;
+  font-size: 28px;
+  padding-bottom: 25px;
+}
+.tabs-button {
+  margin-right: 10px;
+  background: none;
+  color: #e9e9e9;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.tabs-active {
+  margin-right: 10px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #dedb18;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #dedb18;
+}
+
+.tabContent {
+  height: 500px;
+  padding: 25px;
+  background-color: #001bb7;
+}
+
+.tabContent h2 {
+  font-size: 24px;
+  color: #e9e9e9;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.tabContent p {
+  color: #e9e9e9;
+  font: 500 14px/26.8px "Arial", sans-serif;
+  padding-top: 15px;
+  margin: 0;
+}
